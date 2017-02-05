@@ -5,7 +5,7 @@ class LinkedList {
 
   push(val) {
     const node = {
-      value:val,
+      value: val,
       next: null
     }
 
@@ -20,7 +20,7 @@ class LinkedList {
       current.next = node; //append new to end of list
     }
 
-  }
+  };
 
   remove(val) {
     let current = this.head;
@@ -38,13 +38,14 @@ class LinkedList {
         previous = current;
         current = current.next;
       }
-    }
 
     if(current.value == val ) {
       previous.next = null;
     }
-
   }
+
+};
+
 }
 
 const list = new LinkedList();
@@ -52,8 +53,8 @@ const list = new LinkedList();
 list.push(12);
 list.push(13);
 list.push(14);
-list.push(15);
+list.push(12);
 list.remove(13)
 
 
-console.log("list ", list.head)
+console.log("list ", list)
