@@ -1,0 +1,3 @@
+[Command: node /Users/andersbengtsson/SoftwareDevelopment/interview-prep/data_structures/linked-list.js]
+list  LinkedList { head: { value: 12, next: null } }
+[Finished in 0.093s]
