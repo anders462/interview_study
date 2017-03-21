@@ -87,7 +87,7 @@ class SinglyList {
     prevoiusNode.next = currentNode.next;
     deletedNode = currentNode;
     currentNode = null;
-    deletedNode.next =  null;
+    deletedNode
     --this._length;
     return deletedNode;
 
@@ -100,4 +100,5 @@ list.add(12);
 list.add(13);
 list.add(14)
 list.add(15);
-console.log(list.remove(1), "rest of list", list)
+console.log(list.remove(2).data)
+console.log(">>>>>>>>>>>> ", list);
